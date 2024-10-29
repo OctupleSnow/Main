@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-    </a>
+    </a><div class="prevent-select">
     <style>
+        .prevent-select {
+            -webkit-user-select: none; /* Safari */
+            -ms-user-select: none; /* IE 10 and IE 11 */
+            user-select: none; /* Standard syntax */
+        }
+        
+        
         html, body {
             height: 100%;
             margin: 0;
@@ -87,5 +94,6 @@
         position: absolute;
         bottom: 5px;
         right: 5px;">
+</div>
 </div>
 </html>
