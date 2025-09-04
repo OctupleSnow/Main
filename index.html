@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     </a><div class="prevent-select">
     <style>
+        /*Prevent the user from selecting text*/
         .prevent-select {
             -webkit-user-select: none; /* Safari */
             -ms-user-select: none; /* IE 10 and IE 11 */
@@ -20,6 +21,7 @@
             padding: 0;
         }
 
+        /*Background Image */
         body {
             background-image: url('https://img.goodfon.com/original/1920x1080/d/43/hexagons-geometric-shapes-geometry-texture-black-blue-simple.jpg');
             background-size: cover;
@@ -45,7 +47,7 @@
         .icon-container {
             margin: 20px 0;
         }
-
+    /*Button Base*/
         button {
             color: white;
             border: none;
@@ -60,7 +62,7 @@
             width: 50px;
             height: 50px;
         }
-
+        /* Button Color and Hover Effect Color with Text*/
         .blueButton { background-color: blue; }
         .blueButton:hover { background-color: lightgrey; color: blue; }
 
@@ -87,8 +89,16 @@
 
         .parsec {background-color: rgb(95, 24, 24);}
         .parsec:hover {background-color: lightgrey; color: rgb(95, 24, 24)}
+
+        .edutype {background-color: aqua;}
+        .edutype:hover {background-color:lightgrey; color: aqua}
+
+        
     </style>
+
+
 </head>
+<!-- Websites and Sections-->
 <body>
     <header>Home Page</header>
     <h3>School</h3>
@@ -102,7 +112,14 @@
     <div class="button-container">
         <button class="brownbutton" onclick="window.open('https://orteil.dashnet.org/cookieclicker/')">Cookie Clicker</button>
         <button class="eaglebutton" onclick="window.open('https://eaglercraft.com/')">Eaglercraft (minecraft clone)</button>
+        
+    </div>
+
+    <h3>Typing Practice</h3>
+    <div class="button-container">
         <button class="monkeytype" onclick="window.open('https://monkeytype.com/')">Monkey Type</button>
+        <button class="Edutyping" onclick="window.open('https://www.edutyping.com/')">Edutyping</button>
+
     </div>
     
     <h3>Remote Connection</h3>
@@ -113,12 +130,8 @@
 
     </div>
 
-        <!-- <h3>Utilitys</h3>
-    <div class="button-container">
-
-    </div>--> 
-
 </body>
+<!-- Clickable Github Icon-->
 <div class="icon-container">
     <a href="https://github.com/OctupleSnow/Main" target="_blank"><img src="https://img.icons8.com/m_sharp/512/FFFFFF/github.png" style="
         width: 50px;
