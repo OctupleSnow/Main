@@ -4,7 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    }
+
+
+/*Prevent the user from selecting text*/
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*Background Image */
+body {
+    background-image: url("https://img.goodfon.com/original/1920x1080/d/43/hexagons-geometric-shapes-geometry-texture-black-blue-simple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow:hidden;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    color: rgb(120, 120, 120);
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+h3 {
+    color: lightgray;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+.icon-container {
+    margin: 20px 0;
+}
+/*Button Base*/
+button {
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 32px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.github {
+    padding-bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+/* Button Color and Hover Effect Color with Text*/
+.blueButton { background-color: blue; }
+.blueButton:hover { background-color: lightgrey; color: blue; }
+
+.purpleButton { background-color: darkorchid; }
+.purpleButton:hover { background-color: lightgrey; color: darkorchid; }
+
+.brownbutton { background-color: brown; }
+.brownbutton:hover { background-color: lightgrey; color: brown; }
+
+.greenbutton {background-color: lime;}
+.greenbutton:hover {background-color: lightgrey; color: rgb(32, 130, 32)}
+
+.eaglebutton {background-color: green}
+.eaglebutton:hover {background-color: lightgrey; color: green}
+
+.greybutton {background-color: gray}
+.greybutton:hover {background-color: lightgrey; color: black}
+
+.monkeytype {background-color: goldenrod;}
+.monkeytype:hover {background-color: lightgrey; color: goldenrod}
+
+.reemo {background-color: rgb(61, 94, 115);}
+.reemo:hover {background-color: rgb(40, 40, 40); color: rgb(61, 94, 115)}
+
+.parsec {background-color: rgb(95, 24, 24);}
+.parsec:hover {background-color: lightgrey; color: rgb(95, 24, 24)}
+
+.edutype {background-color: aqua;}
+.edutype:hover {background-color: rgb(40, 40, 40); color: aqua}
+</style>
     <div class="prevent-select">
 
 
@@ -34,7 +127,47 @@
 
     </div>
 
-<script src="script.js"></script>
+<script>
+function openSchoology() {
+    window.open("http://stoughton.schoology.com");
+}
+
+function openStoughtonHomePage() {
+    window.open("https://www.stoughton.k12.wi.us/");
+}
+
+function openInfiniteCampus() {
+    window.open("https://stoughtonwi.infinitecampus.org/campus/portal/students/stoughton.jsp?status=login");
+}
+
+function openXello() {
+    window.open("https://auth.xello.world/Google/Student/164DC503-23F7-43CA-9317-844A3D89AE22");
+}
+
+function openCookieClicker() {
+    window.open("https://orteil.dashnet.org/cookieclicker/");
+}
+
+function openEaglercraft() {
+    window.open("https://eaglercraft.com/");
+}
+
+function openMonkeyType() {
+    window.open("https://monkeytype.com/");
+}
+
+function openEdutyping() {
+    window.open("https://www.edutyping.com/");
+}
+
+function openReemo() {
+    window.open("https://reemo.io/");
+}
+
+function openParsec() {
+    window.open("https://web.parsec.app/");
+}
+</script>
 </body>
 
 <!-- Clickable Github Icon-->
